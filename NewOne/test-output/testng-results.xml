@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case 1 Title Assertion Pass]]>
+    </line>
+    <line>
+      <![CDATA[Test case 2 Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Test case 3 Menu Changed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-11T12:02:04 IST" name="Suite" finished-at="2025-03-11T12:03:21 IST" duration-ms="77020">
+    <groups>
+    </groups>
+    <test started-at="2025-03-11T12:02:04 IST" name="Test" finished-at="2025-03-11T12:03:21 IST" duration-ms="77020">
+      <class name="TestCaseDemo.Test1">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test1@3bd82cf5]" started-at="2025-03-11T12:02:04 IST" name="open" finished-at="2025-03-11T12:02:38 IST" duration-ms="34336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="title(java.lang.String)[pri:1, instance:TestCaseDemo.Test1@3bd82cf5]" started-at="2025-03-11T12:02:38 IST" name="title" data-provider="title" finished-at="2025-03-11T12:02:44 IST" duration-ms="5228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 1 Title Assertion Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test1@3bd82cf5]" started-at="2025-03-11T12:02:44 IST" name="close" finished-at="2025-03-11T12:02:44 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test1 -->
+      <class name="TestCaseDemo.Test2">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test2@1f59a598]" started-at="2025-03-11T12:02:46 IST" name="open" finished-at="2025-03-11T12:02:54 IST" duration-ms="8048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="checkLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCaseDemo.Test2@1f59a598]" started-at="2025-03-11T12:02:54 IST" name="checkLogin" data-provider="login" finished-at="2025-03-11T12:03:03 IST" duration-ms="9359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 2 Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test2@1f59a598]" started-at="2025-03-11T12:03:03 IST" name="close" finished-at="2025-03-11T12:03:04 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test2 -->
+      <class name="TestCaseDemo.Test3">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCaseDemo.Test3@1e178745]" started-at="2025-03-11T12:03:04 IST" name="open" finished-at="2025-03-11T12:03:19 IST" duration-ms="15286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="checkMenu(java.lang.String)[pri:0, instance:TestCaseDemo.Test3@1e178745]" started-at="2025-03-11T12:03:19 IST" name="checkMenu" data-provider="list" finished-at="2025-03-11T12:03:21 IST" duration-ms="1460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 3 Menu Changed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkMenu -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseDemo.Test3@1e178745]" started-at="2025-03-11T12:03:21 IST" name="close" finished-at="2025-03-11T12:03:21 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseDemo.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
